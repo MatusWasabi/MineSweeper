@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=40f3a559b2806e643acce91a36c4f6e0&amp;type=3#MainMenu" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/MineSweeper/Art/MineSweeper.png?fileID=2800000&amp;guid=6988a18978285aa418ba00263780407d&amp;type=3#MineSweeper&quot;);">
+        <ui:Label tabindex="-1" text="Mine Sweeper!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="mainMenuTitle" style="-unity-text-align: upper-center; margin-top: 56px;" />
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="MainMenuButton" />
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="MainMenuButton" />
+    </ui:VisualElement>
+</ui:UXML>
