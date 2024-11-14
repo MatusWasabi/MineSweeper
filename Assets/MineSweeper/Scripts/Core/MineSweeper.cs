@@ -12,9 +12,10 @@ public class MineSweeper
 {
     private readonly int width = 3;
     private readonly int height = 3;
-    private readonly int mineCount = 20;
+    private readonly int mineCount = 10;
     private int[,] grid;
     private const int bombMark = CellMarkType.BombMark;
+
 
 
     public MineSweeper(int width, int height, int mineCount)

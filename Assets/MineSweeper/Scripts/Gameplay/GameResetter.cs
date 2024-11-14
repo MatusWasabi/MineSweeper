@@ -3,7 +3,8 @@ using UnityEngine;
 
 /// <summary>
 /// Applied Visitor pattern here. This is visitter
-/// Rationale: If there is a class that cannot be edited. But want to add functionality to it.
+/// Rationale: If there is a class that cannot be edited. But want it to add functionality to it.
+/// We can use Visitor<see cref="https://refactoring.guru/design-patterns/visitor"/> pattern in that case. 
 /// </summary>
 public class Resetter : MonoBehaviour
 {

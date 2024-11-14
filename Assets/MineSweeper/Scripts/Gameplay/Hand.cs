@@ -1,7 +1,8 @@
 using UnityEngine;
 
 /// <summary>
-/// Singleton reference to mode of player clicking.
+/// Singleton reference to what player clicking mode is right now.
+/// Is player wanting to flag cells or player wanting to reveal cells.
 /// </summary>
 public class Hand : MonoBehaviour, IResettable
 {

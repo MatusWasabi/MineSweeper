@@ -4,6 +4,8 @@
     font-size: 30px;
     transition-duration: 0.5s;
     align-self: center;
+    white-space: normal;
+    text-overflow: clip;
 }
 
 .mainMenuTitle:hover {
