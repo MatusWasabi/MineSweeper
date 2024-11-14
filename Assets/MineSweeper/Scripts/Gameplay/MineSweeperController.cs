@@ -110,10 +110,11 @@ public class MineSweeperController : MonoBehaviour, IResettable
         }
 
         cleanCell--;
-        //Debug.Log($"{cleanCell} Clean cells left");
+        Debug.Log($"{cleanCell} Clean cells left");
         if (cleanCell <= 0)
         {
             Debug.Log("Game Won");
+            onGameWin.Invoke();
             isGameFinished = true;
             return;
         }
