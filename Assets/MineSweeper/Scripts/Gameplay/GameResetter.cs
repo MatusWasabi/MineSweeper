@@ -15,7 +15,7 @@ public class Resetter : MonoBehaviour
 
     public void ResetController(MineSweeperController controller)
     {
-        controller.isGameFinished = false;
+        controller.IsGameFinished = false;
         controller.Generate();
         controller.ResetCells();
         controller.SetCellNeighbors();

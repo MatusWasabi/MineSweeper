@@ -11,7 +11,7 @@ using UnityEngine.Events;
 public class MineSweeperController : MonoBehaviour, IResettable
 {
     private int cleanCell;
-    public bool isGameFinished;
+    public bool IsGameFinished;
     private MineSweeper mineSweeper;
     // References to all cells that we will created from this
     private List<MineCell> cells = new List<MineCell>();
@@ -99,13 +99,13 @@ public class MineSweeperController : MonoBehaviour, IResettable
 
     private void CheckIfBomb(int state)
     {
-        if (isGameFinished) return;
+        if (IsGameFinished) return;
 
         if (state == CellMarkType.BombMark)
         {
             Debug.Log("Game Over");
             onGameLose.Invoke();
-            isGameFinished = true;
+            IsGameFinished = true;
             return;
         }
 
@@ -115,7 +115,7 @@ public class MineSweeperController : MonoBehaviour, IResettable
         {
             Debug.Log("Game Won");
             onGameWin.Invoke();
-            isGameFinished = true;
+            IsGameFinished = true;
             return;
         }
     }
