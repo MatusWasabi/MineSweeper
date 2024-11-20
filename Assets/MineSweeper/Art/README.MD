@@ -1,6 +1,5 @@
 # Credits
 
-    CellBackground.png & CellCover.png
     Pattern Pack Pixel (1.1)
 
     Created/distributed by Kenney (www.kenney.nl)
